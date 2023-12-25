@@ -1,0 +1,32 @@
+insert into employee (email, firstname, lastname, title, password,employee_id) VALUES ("abc@gmail.com", "abc","abc","Mr","abc",1),("def@gmail.com", "def","def","Mr","def",2);
+insert into employee (email, firstname, lastname, title, password,employee_id) VALUES ("ghi@gmail.com", "ghi","ghi","Mr","ghi",3),("jkl@gmail.com", "jkl","jkl","Mr","jkl",4);
+
+insert into employee_salary (amount, description, payment_date, employee_id,salary_id) VALUES 
+(100000, "Salary of Nov", '2022-11-01', 1,1),
+(110000, "Salary of Dec", '2022-12-02', 1,2),
+(120000, "Salary of Jan", '2023-01-01', 1,3),
+(130000, "Salary of Feb", '2023-02-01', 1, 4),
+(140000, "salary of March", '2023-03-02',1,5);
+
+insert into employee_salary (amount, description, payment_date, employee_id,salary_id) VALUES 
+(100000, "Salary of Nov", '2022-11-01', 2,6),
+(110000, "Salary of Dec", '2022-12-02', 2,7),
+(120000, "Salary of Jan", '2023-01-01', 2,8),
+(130000, "Salary of Feb", '2023-02-01', 2, 9),
+(140000, "salary of March", '2023-03-02',2,10);
+
+Insert into employee_salary (amount, description, payment_date, employee_id,salary_id) VALUES 
+(100000, "Salary of Nov", '2022-11-01', 3,11),
+(110000, "Salary of Dec", '2022-12-02', 3,12),
+(120000, "Salary of Jan", '2023-01-01', 3,13),
+(130000, "Salary of Feb", '2023-02-01', 3, 14),
+(140000, "salary of March", '2023-03-02',3,15);
+
+Insert into employee_salary (amount, description, payment_date, employee_id,salary_id) VALUES 
+(100000, "Salary of Nov", '2022-11-01', 4,16),
+(110000, "Salary of Dec", '2022-12-02', 4,17),
+(120000, "Salary of Jan", '2023-01-01', 4,18),
+(130000, "Salary of Feb", '2023-02-01', 4, 19),
+(140000, "salary of March", '2023-03-02',4,20);
+
+ 
